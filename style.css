@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container-master{
+    display: grid;
+    min-height: 100vh;
+    margin: auto 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto auto;
+
+}
+
+.box1, .box2, .box3{
+    background-color: crimson;
+    padding: 60px;
+    margin: 5px;
+
+}
+
